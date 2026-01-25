@@ -1,0 +1,195 @@
+﻿  类和对象.cpp
+D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20): error C2679: 二元“<<”: 没有找到接受“Phone”类型的右操作数的运算符(或没有可接受的转换)
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(480,39):
+      可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”: 无法将参数 2 从“Phone”转换为“std::basic_streambuf<char,std::char_traits<char>> *”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(448,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”: 无法将参数 2 从“Phone”转换为“const void *”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(430,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”: 无法将参数 2 从“Phone”转换为“long double”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(412,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”: 无法将参数 2 从“Phone”转换为“double”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(394,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”: 无法将参数 2 从“Phone”转换为“float”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(376,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”: 无法将参数 2 从“Phone”转换为“unsigned __int64”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(358,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”: 无法将参数 2 从“Phone”转换为“__int64”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(340,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”: 无法将参数 2 从“Phone”转换为“unsigned long”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(322,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”: 无法将参数 2 从“Phone”转换为“long”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(303,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”: 无法将参数 2 从“Phone”转换为“unsigned int”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(277,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”: 无法将参数 2 从“Phone”转换为“int”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(258,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”: 无法将参数 2 从“Phone”转换为“unsigned short”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(224,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”: 无法将参数 2 从“Phone”转换为“short”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(206,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”: 无法将参数 2 从“Phone”转换为“bool”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(200,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”: 无法将参数 2 从“Phone”转换为“std::ios_base &(__cdecl *)(std::ios_base &)”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(194,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”: 无法将参数 2 从“Phone”转换为“std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(189,39):
+      或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”: 无法将参数 2 从“Phone”转换为“std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(1031,32):
+      或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+          “初始化”: 无法从“Phone”转换为“const std::error_code &”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              原因如下: 无法从“Phone”转换为“const std::error_code”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(1005,9):
+      或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“__formal”的 模板 参数
+              D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(1004,103):
+              “<template-parameter>”: 无法创建指向引用的指针
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(947,31):
+      或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+          “初始化”: 无法从“Phone”转换为“unsigned char”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(941,31):
+      或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+          “初始化”: 无法从“Phone”转换为“const unsigned char *”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(936,31):
+      或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+          “初始化”: 无法从“Phone”转换为“signed char”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(930,31):
+      或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+          “初始化”: 无法从“Phone”转换为“const signed char *”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(894,32):
+      或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 模板 参数“_Elem”不明确
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+              可能是“Phone”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+              或    “char”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)”: 无法从“Phone”推导出“_Elem”的 模板 参数
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(851,32):
+      或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)”: 无法从“Phone”推导出“const _Elem *”的 模板 参数
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(813,31):
+      或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+          “初始化”: 无法从“Phone”转换为“char”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(768,31):
+      或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+          “初始化”: 无法从“Phone”转换为“const char *”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(732,32):
+      或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+          “初始化”: 无法从“Phone”转换为“char”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(688,32):
+      或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+          “初始化”: 无法从“Phone”转换为“const char *”
+              D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,41):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\memory(3792,32):
+      或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“Phone”推导出“const std::unique_ptr<_Ty2,_Dx2> &”的 模板 参数
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\memory(1984,32):
+      或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法从“Phone”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+      D:\Visual studio\Visual Studio 2022\community\VC\Tools\MSVC\14.44.35207\include\xstring(3444,32):
+      或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+          D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+          “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“Phone”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+      D:\Visual studio\lianxi\构造函数和析构函数\构造函数和析构函数\类和对象.cpp(35,20):
+      尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, Phone)”时
+  
