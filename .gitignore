@@ -1,0 +1,32 @@
+# === Visual Studio 临时文件与缓存 ===
+.vs/
+out/
+build/
+x64/
+x86/
+Debug/
+Release/
+
+# === 项目编译产生的中间文件 ===
+*.obj
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
+*.ilk
+*.exe
+*.sdf
+*.ipch
+
+# === 解决方案与个人配置文件 ===
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+
+# === 其他杂物 ===
+*.db
+*.opendb
