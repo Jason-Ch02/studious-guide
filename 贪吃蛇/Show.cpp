@@ -7,8 +7,9 @@
 #include<vector>
 #include <ctime>
 #include <string>  
-#include <chrono>
-#include <thread>
+//#include <chrono>
+//#include <thread>
+#include <graphics.h>
 
 //#include"Snake.h"
 using namespace std;
@@ -50,7 +51,8 @@ int main() {
             default:
                 // 按了其他键，报错
                 cout << "输入有误" << endl;
-                this_thread::sleep_for(chrono::milliseconds(1000));
+                //this_thread::sleep_for(chrono::milliseconds(1000));
+				Sleep(gameSpeed);
                 break;
             }
         }
@@ -106,7 +108,8 @@ int main() {
                 MoveSnake(snake,food, dir, GameOver, WIDTH, HEIGHT);
 
                 // 4. 控制游戏速度
-               this_thread::sleep_for(chrono::milliseconds(gameSpeed));
+               //this_thread::sleep_for(chrono::milliseconds(gameSpeed));
+			   Sleep(gameSpeed);
             }
             while (!GameOver) {
             }
@@ -153,17 +156,20 @@ int main() {
             case '1':
                 gameSpeed = 100;
                 cout << "选择成功" << endl;
-                this_thread::sleep_for(chrono::milliseconds(1000));
+                //this_thread::sleep_for(chrono::milliseconds(1000));
+				Sleep(gameSpeed);
                 break;
             case '2':
                 gameSpeed = 60;
                 cout << "选择成功" << endl;
-                this_thread::sleep_for(chrono::milliseconds(1000));
+                //this_thread::sleep_for(chrono::milliseconds(1000));
+				Sleep(gameSpeed);
                 break;
             case '3':
                 gameSpeed = 30;
                 cout << "选择成功" << endl;
-                this_thread::sleep_for(chrono::milliseconds(1000));
+                //this_thread::sleep_for(chrono::milliseconds(1000));
+				Sleep(gameSpeed);
                 break;
             default:
                 break;
