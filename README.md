@@ -8,43 +8,64 @@
 
 ✨ 核心功能
 基础移动控制（方向键上下左右）
+
 食物随机生成与碰撞检测
+
 蛇身增长与长度管理
+
 分数统计与记录
-游戏结束判断（撞墙 / 撞自身）
+
+游戏结束判断（撞墙 / 撞自身）\n
 可选：难度递增、速度选择
 
 
 🛠️ 开发环境
 开发语言：C++
+
 构建工具：Visual Studio 2026
+
 项目文件：贪吃蛇.sln
 
 
 🚀 运行说明
 克隆仓库到本地：
+
 bash
+
 运行
+
 git clone https://github.com/Jason-Ch02/studious-guide.git
+
 cd studious-guide
+
 使用 Visual Studio 打开 贪吃蛇.sln 文件
+
 编译并运行项目
+
 启动游戏后，使用方向键控制蛇移动，按 ESC 可退出游戏
 
 
 📂 项目结构
 plaintext
+
 studious-guide/
+
 ├── 贪吃蛇/                # 游戏核心代码目录
+
 ├── .gitattributes        # Git 属性配置
+
 ├── .gitignore             # Git 忽略文件配置
+
 └── 贪吃蛇.sln             # Visual Studio 项目解决方案文件
 
 
 🎮 操作说明
 表格
+
 按键	功能
+
 w / s / a / d控制蛇的移动方向
+
 x	退出游戏
 
 
